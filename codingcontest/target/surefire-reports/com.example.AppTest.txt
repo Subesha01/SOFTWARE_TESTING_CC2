@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.example.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 49.09 s <<< FAILURE! - in com.example.AppTest
+setTest(com.example.AppTest)  Time elapsed: 21.117 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="span-with-normal-white-space">...</span> is not clickable at point (1028, 646). Other element would receive the click: <button id="onetrust-pc-btn-handler" class="cookie-setting-link">...</button>
+  (Session info: chrome=124.0.6367.92)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c41cbcb2fa1cc0f15f492a35fb1d550, clickElement {id=f.7F53D869752D51B1E4A10553E14393CD.d.929FC8C3E5E3ECF10B5AE12284543F43.e.483}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\subes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61530/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2c41cbcb2fa1cc0f15f492a35fb1d550)] -> xpath: //*[@id="otherAvailFormats"]/div/div/div[3]/a/p/span]
+Session ID: 2c41cbcb2fa1cc0f15f492a35fb1d550
+	at com.example.AppTest.setTest(AppTest.java:94)
+
