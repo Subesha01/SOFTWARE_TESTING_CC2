@@ -121,10 +121,9 @@ public class AppTest {
         WebElement popupLabel = driver.findElement(By.xpath("//div[@class='popup']//label"));
         String labelText = popupLabel.getText();
 
-        if (labelText.contains("Sign in")) {
-            System.out.println("Sign in label found in the popup.");
-        } else if (labelText.contains("Create account")) {
-            System.out.println("Create account label found in the popup.");
+        if (labelText.contains("Signin or Create account")) {
+            System.out.println("Signin or Create Account label found in the popup.");
+        
         } else {
             System.out.println("Label does not contain 'Sign in' or 'Create account' text.");
         }
